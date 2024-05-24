@@ -1,0 +1,32 @@
+opsys2024@opsys2024-VirtualBox:~/Lab8$ ls -l
+total 304
+-rw-rw-r-- 1 opsys2024 opsys2024   446 Apr 23 18:35  accessTest.c
+-rw-rw-r-- 1 opsys2024 opsys2024     0 Apr 23 18:36  accessTest.txt
+-rwxrwxr-x 1 opsys2024 opsys2024 16136 Apr 23 18:35  accessTest.x
+-rw-rw-r-- 1 opsys2024 opsys2024 61781 Apr 23 18:37  accessTest_x.png
+-rw------- 1 opsys2024 opsys2024     0 Apr 23 18:48  bar
+---------- 1 opsys2024 opsys2024     0 Apr 23 18:48  boo
+-rw-rw-rw- 1 opsys2024 opsys2024     0 Apr 23 18:48  foo
+-rw-rw-r-- 1 opsys2024 opsys2024 96068 Apr 23 18:49 'ls _l part3.png'
+-rw-rw-r-- 1 opsys2024 opsys2024   839 Apr 23 18:23  statTest.c
+-rw-rw-r-- 1 opsys2024 opsys2024     0 Apr 23 18:24  statTest.txt
+-rwxrwxr-x 1 opsys2024 opsys2024 16200 Apr 23 18:23  statTest.x
+-rw-rw-r-- 1 opsys2024 opsys2024 85968 Apr 23 18:28  statTest_x.png
+-rw-rw-r-- 1 opsys2024 opsys2024     0 Apr 23 18:49  test1.txt
+-rw-rw---- 1 opsys2024 opsys2024     0 Apr 23 18:49  test2.txt
+-rw-rwxr-- 1 opsys2024 opsys2024     0 Apr 23 18:49  test3.txt
+-rw-rw-r-- 1 opsys2024 opsys2024   496 Apr 23 18:48  umaskTest.c
+-rwxrwxr-x 1 opsys2024 opsys2024 16088 Apr 23 18:48  umaskTest.x
+
+
+-rw-rw-r-- 1 opsys2024 opsys2024     0 Apr 23 18:49  test1.txt
+-rw-rw-(-)-- 1 opsys2024 opsys2024     0 Apr 23 18:49  test2.txt
+-rw-rw(x)r-- 1 opsys2024 opsys2024     0 Apr 23 18:49  test3.txt
+
+u+w (+user in writing)
+o-r (-other in reading)
+g+x (+group in executable)
+
+originally
+-rw-rw-r--
+

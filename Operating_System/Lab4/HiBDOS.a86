@@ -1,0 +1,14 @@
+//"Hello World ASM86 example"
+
+	CSEG
+	mov	cl, 09h
+	lea	dx, msg
+	int	224
+	mov	cl, 00h
+	int	224
+	DSEG
+	org	100h
+	msg	db	'Hi BDOS!$'
+	end
+	
+	
